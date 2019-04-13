@@ -23,10 +23,10 @@ public class Note implements Serializable
 
     private Date date;
 
-    public Note(String content,String titel)
+    public Note(String content,String title)
     {
          this.content=content;
-         this.title=titel;
+         this.title=title;
          this.date=new Date(System.currentTimeMillis());
     }
 
