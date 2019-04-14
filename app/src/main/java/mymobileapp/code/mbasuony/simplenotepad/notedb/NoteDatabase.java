@@ -17,6 +17,8 @@ public abstract class NoteDatabase extends RoomDatabase
 {
 
     public abstract NoteDao getNoteDao();
+
+    //----------instance by Singleton pattern---------------//
     public static NoteDatabase noteDatabase;
 
     // synchronized is use to avoid concurrent access in multithred environment
@@ -37,6 +39,7 @@ public abstract class NoteDatabase extends RoomDatabase
                       .allowMainThreadQueries() // using this is not recommended on real apps. This is just for demonstration instead use AsyncTask (or handler, rxjava).
                       .build();
     }
+   //-----------------------------------------------------------------------//
 
     public void cleanUp()
     {
