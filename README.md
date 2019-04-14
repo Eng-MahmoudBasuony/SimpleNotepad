@@ -8,6 +8,7 @@ The demo application we create here will hopefully demonstrate database-oriented
    * Retrieve and display list using recyclerview
    * Insert, Update and Delete note records from database
    * open source
+   * support Tablet Screen
   
   # screenshots
   ![alt text](https://firebasestorage.googleapis.com/v0/b/learn-esaily.appspot.com/o/SimpleNotepad%2F1.png?alt=media&token=300f8ec3-0c01-418b-a3f9-d5178417f2b7)
